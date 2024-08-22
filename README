@@ -1,0 +1,24 @@
+# Problema
+O problema proposto envolve a busca pelos k caminhos mais curtos entre duas cidades, Mysthollow e Luminae, em um reino mágico representado por um grafo. O grafo é composto por n cidades conectadas por m voos direcionados, cada um com um custo associado. Sua tarefa é encontrar os k menores caminhos de Mysthollow (cidade 1) para Luminae (cidade n) considerando que os caminhos podem passar por uma cidade várias vezes e ter diferentes custos. A entrada do problema especifica o número de cidades, o número de voos e o número de caminhos desejados, seguidos pelos detalhes de cada voo. O objetivo é calcular e listar os preços dos k caminhos mais baratos em ordem crescente.
+# Desenvolvedores
+Desenvolvido em C 
+-Vitor Ferreira França 
+-Thiago Mateus de Almeida Dias Orsini 
+
+# Como usar
+Para usar o programa utilise make na pasta funcoes do tp  
+1-cd funcoes
+2-make
+3-./tp1
+
+exemplo de entrada: ( na pasta input no arquivo "input.txt")
+4 6 10
+1 2 1
+1 3 3
+2 3 2
+2 4 6
+3 2 8
+3 4 1
+
+saida experada:  ( na pasta output no arquivo "outputut.txt")
+4 4 7 14 17 24 27 34 37 44 

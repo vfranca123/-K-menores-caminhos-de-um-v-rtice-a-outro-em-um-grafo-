@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <limits.h>
-#include "func.h" // Inclui o cabeçalho com as definições de estrutura e funções
+#include "../interfaces/func.h" // Inclui o cabeçalho com as definições de estrutura e funções
 
 #define INFINITY INT_MAX // Define o infinito como o valor máximo de um inteiro
 

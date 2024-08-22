@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #include <limits.h>
 #include <stdbool.h>
-#include "funcoes/func.h"
+#include "desenvolvimento_funcoes/func.h"
 
 int main() {
     FILE *input_file = fopen("../input/input.txt", "r");
